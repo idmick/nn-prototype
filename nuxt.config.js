@@ -2,6 +2,7 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'universal',
+  target: 'static',
 
   /*
   ** Headers of the page
@@ -49,7 +50,8 @@ module.exports = {
   ** Router middleware
   */
   router: {
-    middleware: 'setCacheVersion'
+    middleware: 'setCacheVersion',
+    base: '/idmick.github.com/nn-prototype/'
   },
 
   /*
