@@ -49,7 +49,7 @@ module.exports = {
   */
   router: {
     middleware: 'setCacheVersion',
-    base: '/idmick.github.com/nn-prototype/'
+    base: '/'
   },
 
   /*
